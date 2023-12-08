@@ -1,0 +1,25 @@
+nav {
+    height: 100vh;
+    width: 57px;
+    background-color: white;
+}
+
+.conteudo {
+    width: 100%;
+    padding-left: 0%;
+    margin-left: 0px;
+    background-color:#F1F1F1;
+}
+
+.active{
+    background-color: blue;
+}
+
+i {
+    font-size: 21px;
+    color: blue  
+}
+
+.icon-store {
+    color: white;
+}

@@ -1,0 +1,17 @@
+.card {
+    font: bold;
+    font-size: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    padding: 4px 12px;
+    background: padding-box;
+    border-radius: 6px 0px;
+}
+
+table {
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    font-size: 8px;
+}
