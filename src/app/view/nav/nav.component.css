@@ -1,11 +1,16 @@
 nav {
     height: 100vh;
-    width: 57px;
     background-color: white;
 }
-
+.nav-brand {
+    height: 57px;
+    width: 57px;
+}
+.nav-link {
+    padding: 18px;
+    height: 57px;
+}
 .conteudo {
-    width: 100%;
     padding-left: 0%;
     margin-left: 0px;
     background-color:#F1F1F1;
@@ -21,5 +26,6 @@ i {
 }
 
 .icon-store {
+    padding: 18px;
     color: white;
 }
