@@ -1,12 +1,7 @@
-.card {
-    height: 333px;
-    width: 300px;
-    font: bold;
-    font-size: 10px;
-}
-
 .card-title {
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 10px;
+    /* font: normal normal 800 10px/14px Nunito; */
     padding: 4px 12px;
     background: padding-box;
     border-radius: 6px 0px;
@@ -14,6 +9,8 @@
 
 .card-body {
     padding-bottom: 0px;
+    text-align: center;
+    display: flex;
 }
 
 .card-foot {
@@ -22,19 +19,14 @@
 .table {
     border: 1px solid #E4E4E4;
     border-radius: 5px;
-    font-size: 8px;
+    font-size: 10px;
 }
-
-/* th {
-    font: normal normal 800 8px/11px Nunito;
-} */
 
 .progress {
     padding: 0px;
     margin-top: 5px;
-    margin-left: 10px;
-    width: 260px;
     height: 4px;
+    display: flex;
 }
 
 .progress-bar {
@@ -46,4 +38,12 @@
 
 .la-times {
     color: #FF4860;
+}
+
+.txtSecundario {
+    border: 1px solid #F1F1F1;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    align-self: center;
 }

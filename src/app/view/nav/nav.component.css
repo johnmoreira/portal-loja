@@ -14,6 +14,7 @@ nav {
     padding-left: 0%;
     margin-left: 0px;
     background-color:#F1F1F1;
+    width: fit-content;
 }
 
 .active{

@@ -1,18 +1,19 @@
 .card {
     background-color: white;
-    font-size: 8px;
 }
 
 .nav-item {
-    font: normal normal bold 8px/11px Nunito;
+    font: normal normal bold 9px/11px Nunito;
     text-transform: uppercase;
 }
 
 table {
     border: 1px solid #E4E4E4;
     border-radius: 5px;
+    font-size: 9px;
 }
 tbody tr th {
     color: #025ADE;
-    font: normal normal bold 8px/11px Nunito;
+    /* font: normal normal bold 10px/12px Nunito; */
+    text-transform: uppercase;
 }
