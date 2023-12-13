@@ -1,0 +1,33 @@
+.card {
+    background-color: white;
+    /* display: flex; */
+}
+.card-body {
+    /* display: flex; */
+}
+.card-title {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.txtPincipal {
+    font-size: 17px;
+    font-weight: 800;
+}
+.txtSecundario {
+    border: 1px solid #F1F1F1;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    align-self: center;
+}
+.small {
+    /* font-size: 8px; */
+    font: normal normal normal 8px/10px Nunito;
+}
+.progress {
+    padding: 0px;
+    margin-top: 5px;
+    /* display: flex; */
+    height: 7px;
+}
