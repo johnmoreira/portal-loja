@@ -3,17 +3,21 @@
 }
 
 .nav-item {
-    font: normal normal bold 9px/11px Nunito;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
     text-transform: uppercase;
 }
 
 table {
     border: 1px solid #E4E4E4;
     border-radius: 5px;
-    font-size: 9px;
+    font-size: 10px;
 }
 tbody tr th {
     color: #025ADE;
-    /* font: normal normal bold 10px/12px Nunito; */
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
     text-transform: uppercase;
 }

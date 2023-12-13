@@ -10,6 +10,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { Dashboard2Component } from './components/dashboard2/dashboard2.component';
 import { Dashboard3Component } from './components/dashboard3/dashboard3.component';
 import { Dashboard1Component } from './components/dashboard1/dashboard1.component';
+import { HighchartsChartModule } from 'highcharts-angular';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Dashboard1Component } from './components/dashboard1/dashboard1.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HighchartsChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

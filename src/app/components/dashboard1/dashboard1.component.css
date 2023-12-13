@@ -1,19 +1,20 @@
 .card-title {
     font-size: 10px;
+    line-height: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 10px;
 }
 
 .txtPincipal {
     font-size: 17px;
-    font-weight: bold;   
+    line-height: 23px;
+    font-weight: 800;
 }
 
 .progress {
+    background-color: #FFFFFF;
     padding: 0px;
     margin-top: 5px;
-    display: flex;
     height: 7px;
 }
 
@@ -44,7 +45,10 @@ li {
     font-size: 8px;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .grafico ul li{
     border: 1px solid #E4E4E4;
     align-self: center;
@@ -59,6 +63,6 @@ li {
     font-weight: bold;
     font-size: 9px;
 }
-.grafico {
+/* .grafico {
     height: 100%;
-}
+} */
