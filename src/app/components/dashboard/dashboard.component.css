@@ -1,9 +1,9 @@
 .card {
     background-color: white;
-    display: flex;
+    /* display: flex; */
 }
 .card-body {
-    display: flex;
+    /* display: flex; */
 }
 .card-title {
     font-size: 10px;
@@ -28,6 +28,6 @@
 .progress {
     padding: 0px;
     margin-top: 5px;
-    display: flex;
+    /* display: flex; */
     height: 7px;
 }
