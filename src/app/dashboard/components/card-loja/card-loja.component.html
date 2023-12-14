@@ -9,3 +9,18 @@
         </div>
     </div>
 </div>
+
+
+<ng-template>
+    <div class="card">
+        <div class="card-body row justify-content-between">
+            <h5 class="card-title">{{ titulo }}</h5>
+            <span class="card-text txtPincipal col">{{ notaMes }}</span>
+            <span class="card-text txtSecundario col-auto"> <span class="txtSuccess">{{ percentualNota }}</span> vs Mês Anterior</span>
+            <div class="progress" role="progressbar" aria-label="progresso-notas" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-warning w-75"></div>
+            </div>
+        </div>
+    </div>
+</ng-template>
