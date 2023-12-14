@@ -11,10 +11,10 @@ nav {
     height: 57px;
 }
 .conteudo {
-    padding-left: 0%;
-    margin-left: 0px;
+    /* padding-left: 0%;
+    margin-left: 0px; */
     background-color:#F1F1F1;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .active{

@@ -1,5 +1,24 @@
 <app-header></app-header>
-<app-dashboard></app-dashboard>
-<app-dashboard1></app-dashboard1>
-<app-dashboard2></app-dashboard2>
-<app-dashboard3></app-dashboard3>
+
+<div class="d-flex" style="width: 80%;">
+    <div class="col-3" *ngFor="let card of cardLoja">
+        <app-card-loja [titulo]="card.titulo" [txtPrincipal]="card.txtPrincipal"
+            [txtSecundario]="card.txtSecundario"></app-card-loja>
+    </div>
+    <app-card-lojas-visitadas class="col-3" [titulo]="visitadas.titulo" [txtPrincipal]="visitadas.txtPrincipal"
+        [txtSecundario]="visitadas.txtSecundario"></app-card-lojas-visitadas>
+</div>
+
+<div class="d-flex">
+    <app-lojas-por-faixa-de-notas class="col-4"></app-lojas-por-faixa-de-notas>
+    <app-grafico-evolucao-media-notas class="col-8"></app-grafico-evolucao-media-notas>
+</div>
+
+
+<div class="d-flex row-cols-5">
+    <div class='col' *ngFor="let categoria of categorias">
+        <app-categorias [titulo]="categoria" ></app-categorias>
+    </div>
+</div>
+
+<app-tabela-categorias></app-tabela-categorias>

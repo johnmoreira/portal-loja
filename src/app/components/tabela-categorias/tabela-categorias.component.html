@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="card-body">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Coordenadores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Promotores </a>
+            </li>
+        </ul>
+        <table class="table table-striped rounded">
+            <thead>
+                <tr>
+                    <th scope="col">COORDENADORES</th>
+                    <th scope="col">NOTA</th>
+                    <th scope="col">LOJAS VISITADAS - % VISITAS</th>
+                    <th scope="col">MIX</th>
+                    <th scope="col">MATERIAL</th>
+                    <th scope="col">CROSS</th>
+                    <th scope="col">PREÇO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let dados of tabelaCategoria">
+                    <td>{{ dados.coordenador }}</td>
+                    <td>{{ dados.nota }}</td>
+                    <td>{{ dados.visitadas }}</td>
+                    <td>{{ dados.mix }}</td>
+                    <td>{{ dados.material }}</td>
+                    <td>{{ dados.cross }}</td>
+                    <td>{{ dados.preco }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

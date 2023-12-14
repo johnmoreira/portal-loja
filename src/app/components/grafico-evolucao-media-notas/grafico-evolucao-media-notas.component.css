@@ -1,0 +1,8 @@
+.card-title {
+    font: normal normal 800 10px/14px Nunito;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
