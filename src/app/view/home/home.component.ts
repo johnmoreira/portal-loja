@@ -44,8 +44,6 @@ export class HomeComponent {
     ordem: 2
   }
 
-
-
   categorias: string[] = [
     'MIX', 'SHARE', 'MATERIAL', 'CROSS MERCHANDISING', 'PREÇO'
   ]

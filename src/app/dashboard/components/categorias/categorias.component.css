@@ -1,5 +1,8 @@
 .card-title {
-    font: normal normal 800 10px/14px Nunito;
+    /* font: normal normal 800 10px/14px Nunito; */
+    font-family: nunito;
+    font-size: 12px;
+    font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     padding: 4px 12px;
@@ -18,17 +21,22 @@
     font: normal normal bold 10px/14px Nunito;
 }
 
-/* table tbody tr.row{
-    font: normal normal 800 8px/11px Nunito;
+table {
     border: 1px solid #E4E4E4;
-    text-align: center;
     border-radius: 5px;
+    font-family: 'nunito';
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
 }
-     */
-    /* font-weight: 800;
-    font-size: 10px;
-    line-height: 12px; */
 
+th {
+    font-weight: 800;
+}
+/* 
+tr {
+    font: normal normal normal 8px/11px Nunito;
+} */
 
 .txtSecundario {
     border: 1px solid #F1F1F1;
@@ -39,6 +47,7 @@
     align-self: center;
     text-transform: none;
 }
+
 .progress {
     padding: 0px;
     margin-top: 5px;
@@ -48,6 +57,7 @@
 .progress-bar {
     background-color: #05A51F;
 }
+
 .la-check {
     color: #05A51F;
 }

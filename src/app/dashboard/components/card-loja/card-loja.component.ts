@@ -10,6 +10,5 @@ export class CardLojaComponent {
   @Input() titulo: string = 'titulo';
   @Input() txtPrincipal: string = '1.00';
   @Input() txtSecundario: string = '0,0%';
-
-
+  @Input() ordem: string = '';
 }
