@@ -22,9 +22,9 @@
             </thead>
             <tbody>
                 <tr *ngFor="let dados of tabelaCategoria">
-                    <td>{{ dados.coordenador }}</td>
+                    <th>{{ dados.coordenador }}</th>
                     <td>{{ dados.nota }}</td>
-                    <td>{{ dados.visitadas }}</td>
+                    <td>{{ dados.visitadas }} - {{ dados.percentualVisitadas }}</td>
                     <td>{{ dados.mix }}</td>
                     <td>{{ dados.material }}</td>
                     <td>{{ dados.cross }}</td>

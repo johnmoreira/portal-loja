@@ -44,7 +44,26 @@ export class HomeComponent {
     ordem: 2
   }
 
-  categorias: string[] = [
-    'MIX', 'SHARE', 'MATERIAL', 'CROSS MERCHANDISING', 'PREÇO'
+  categorias: any[] = [
+    {
+      titulo: 'MIX',
+      bg: '#B1FBE2'
+    },
+    {
+      titulo: 'SHARE',
+      bg: '#ECBBF2'
+    },
+    {
+      titulo: 'MATERIAL',
+      bg: '#FEC3E2'
+    },
+    {
+      titulo: 'CROSS MERCHANDISING',
+      bg: '#FFC2CA'
+    },
+    {
+      titulo: 'PREÇO',
+      bg: '#54EB95'
+    }
   ]
 }
