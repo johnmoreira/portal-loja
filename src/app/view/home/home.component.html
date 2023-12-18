@@ -2,11 +2,13 @@
 
 <div class="d-flex cardLoja">
     <div class="col-3 p-1" *ngFor="let card of cardLoja">
-        <app-card-loja [titulo]="card.titulo" [txtPrincipal]="card.txtPrincipal"
-            [txtSecundario]="card.txtSecundario"></app-card-loja>
+        <app-card-loja 
+            [titulo]="card.titulo" [notaMes]="card.notaMes" [lojasPerfeitas]="card.lojasPerfeitas"
+            [lojasVisitadas]="card.lojasVisitadas" [percentualPerfeitas]="card.percentualPerfeitas"
+            [txtSecundario]="card.txtSecundario" [totalLojas]="card.totalLojas"
+            [percentualVisitadas]="card.percentualVisitadas" [meta]="card.meta" [progresso]="card.progresso">
+        </app-card-loja>
     </div>
-    <app-card-lojas-visitadas class="col-3 p-1" [titulo]="visitadas.titulo" [txtPrincipal]="visitadas.txtPrincipal"
-        [txtSecundario]="visitadas.txtSecundario"></app-card-lojas-visitadas>
 </div>
 
 <div class="d-flex">
@@ -20,6 +22,6 @@
         <app-categorias [titulo]="categoria.titulo" [bg]="categoria.bg"></app-categorias>
     </div>
 </div>
-<div  class="p-1">
+<div class="p-1">
     <app-tabela-categorias></app-tabela-categorias>
 </div>

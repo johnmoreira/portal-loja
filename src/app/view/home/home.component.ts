@@ -7,42 +7,44 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
-  public totalLojas: string = '2891';
-  public lojasVisitadas: string = '2391';
-  public percenutalVisitadas: string = '87.7%';
-  public notaMes: string = '6.36';
-  public lojasPerfeitas: string = '432';
-  public percentualPerfeitas: string = '18.78%';
+  public notaMes: number = 6.36;
+  public totalLojas: number = 2891;
+  public lojasPerfeitas: number = 432;
+  public lojasVisitadas: number = 2391;
 
   cardLoja: any[] = [
     {
       titulo: 'Nota do mês atual',
-      txtPrincipal: this.notaMes,
+      notaMes: this.notaMes,
       txtSecundario: '+0,6%',
-      ordem: 1
+      progresso: (this.notaMes/10) *100,
+      meta: 70
     },
-
+    {
+      titulo: 'Lojas Visitadas',
+      lojasVisitadas: this.lojasVisitadas,
+      totalLojas: this.totalLojas,
+      percentualVisitadas: (this.lojasVisitadas / this.totalLojas) * 100,
+      progresso: (this.lojasVisitadas / this.totalLojas) * 100,
+      meta: 70
+    },
     {
       titulo: 'Lojas perfeitas',
-      txtPrincipal: `${this.lojasPerfeitas} de ${this.lojasVisitadas}`,
+      lojasPerfeitas: this.lojasPerfeitas,
+      lojasVisitadas: this.lojasVisitadas,
       txtSecundario: '+0,6%',
-      ordem: 3
+      progresso: (this.lojasPerfeitas / this.lojasVisitadas) * 100,
+      meta: 10
     },
-
     {
       titulo: 'Lojas perfeitas %',
-      txtPrincipal: `${this.percentualPerfeitas} de ${this.lojasVisitadas}`,
+      percentualPerfeitas: (this.lojasPerfeitas / this.lojasVisitadas) * 100,
+      lojasVisitadas: this.lojasVisitadas,
       txtSecundario: '-0,6%',
-      ordem: 4
-    },
+      progresso: (this.lojasPerfeitas / this.lojasVisitadas) * 100,
+      meta: 10
+    }
   ]
-
-  visitadas: any = {
-    titulo: 'Lojas Visitadas',
-    txtPrincipal: `${this.lojasVisitadas} de ${this.totalLojas}`,
-    txtSecundario: this.percenutalVisitadas,
-    ordem: 2
-  }
 
   categorias: any[] = [
     {

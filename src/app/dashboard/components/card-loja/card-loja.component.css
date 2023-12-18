@@ -37,6 +37,9 @@
 .txtPrimary {
     color: #025ADE;
 }
+.textWarning {
+    color: #FFC107;
+}
 
 #success{
     background-color: #05A51F;
@@ -45,7 +48,6 @@
 
 .linha {
     position: absolute;
-    left: 60%;
     border: 1px solid #007713;
     width: 0px;
     height: 10px;
