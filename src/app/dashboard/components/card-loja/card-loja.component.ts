@@ -11,23 +11,22 @@ export class CardLojaComponent {
   @Input() txtSecundario: string = '0,0%';
 
   @Input() notaMes: number = 0;
-  @Input() percentualNota: number = 0;
-
   @Input() lojasPerfeitas: number = 0;
   @Input() lojasVisitadas: number = 0;
-
   @Input() totalLojas: number = 0;
+  @Input() meta: number = 0;
+
+
+  @Input() percentualNota: number = 0;
   @Input() percentualPerfeitas: number = 0;
   @Input() percentualVisitadas: number = 0;
 
-  @Input() meta: number = 0;
   @Input() progresso: number = 0;
 
   public progressColor(): string {
-    if(this.progresso>=this.meta){
+    if (this.progresso >= this.meta) {
       return '#05A51F'
-    }else 
+    } else
       return '#FFC107'
   }
-
 }

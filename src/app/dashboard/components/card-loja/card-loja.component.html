@@ -1,12 +1,12 @@
 <div class="card">
     <div class="card-body row justify-content-between">
         <h5 class="card-title">{{ titulo }}</h5>
-        <span *ngIf="notaMes>0" class="card-text txtPincipal col">{{ notaMes }}</span>
-        <span *ngIf="lojasPerfeitas>0" class="card-text txtPincipal col "><span class="text-primary"> {{ lojasPerfeitas }} </span>de {{ lojasVisitadas }}</span>
-        <span *ngIf="percentualPerfeitas>=0" class="card-text txtPincipal col"><span class="txtSuccess"> {{ percentualPerfeitas.toFixed(2) }}% </span>de {{ lojasVisitadas }}</span>
-        <span *ngIf="lojasVisitadas>0 && totalLojas>0" class="card-text txtPincipal col-auto"><span class="text-primary">{{ lojasVisitadas }}</span> de {{ totalLojas }}</span>
+        <span *ngIf="notaMes" class="card-text txtPincipal col">{{ notaMes }}</span>
+        <span *ngIf="lojasPerfeitas" class="card-text txtPincipal col "><span class="text-primary"> {{ lojasPerfeitas }} </span>de {{ lojasVisitadas }}</span>
+        <span *ngIf="percentualPerfeitas" class="card-text txtPincipal col"><span class="txtSuccess"> {{ percentualPerfeitas.toFixed(2) }}% </span>de {{ lojasVisitadas }}</span>
+        <span *ngIf="lojasVisitadas && totalLojas" class="card-text txtPincipal col-auto"><span class="text-primary">{{ lojasVisitadas }}</span> de {{ totalLojas }}</span>
         
-        <span *ngIf="percentualVisitadas>0 " class="card-text txtPincipal col-auto txtSuccess">{{percentualVisitadas.toFixed(2) }}%</span>
+        <span *ngIf="percentualVisitadas " class="card-text txtPincipal col-auto txtSuccess">{{percentualVisitadas.toFixed(2) }}%</span>
         <span *ngIf="txtSecundario" class="card-text txtSecundario col-auto"> <span class="txtSuccess">{{ txtSecundario }}</span> vs Mês Anterior</span>
         
         <div class="progress"  role="progressbar" aria-label="progresso-notas" aria-valuenow="75" aria-valuemin="0"
