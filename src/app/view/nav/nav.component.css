@@ -1,14 +1,16 @@
-nav {
+.nav {
     height: 100vh;
     background-color: white;
+    
 }
-.nav-brand {
+/* .nav-brand {
+    padding: 18px;  
     height: 57px;
     width: 57px;
-}
+} */
 .nav-link {
     padding: 18px;
-    height: 57px;
+    color: black;
 }
 .conteudo {
     /* padding-left: 0%;
@@ -21,12 +23,15 @@ nav {
     background-color: blue;
 }
 
+.active i{
+    color: white;
+}
+
 i {
     font-size: 21px;
     color: blue  
 }
 
 .icon-store {
-    padding: 18px;
     color: white;
 }
